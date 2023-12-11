@@ -3,11 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 import {
   faCss3,
-  faNode,
   faGitAlt,
   faHtml5,
   faJsSquare,
   faReact,
+  faBootstrap,
 } from "@fortawesome/free-brands-svg-icons";
 import "./about.scss";
 
@@ -84,7 +84,7 @@ export default function About() {
             </div>
 
             <div className="face5">
-              <FontAwesomeIcon icon={faNode} color="#2BED45" />
+              <FontAwesomeIcon icon={faBootstrap} color="#1E3050" />
             </div>
 
             <div className="face6">
