@@ -78,11 +78,7 @@ export default function Home() {
               </ButtonComponent>
             </Link>
 
-            <a
-              href="/frontend-cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="/haseeb-CV4.pdf" target="_blank" rel="noopener noreferrer">
               <ButtonComponent
                 className="text-theme-lightGray"
                 outline="primary"
