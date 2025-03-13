@@ -33,14 +33,32 @@ import agri5 from "../../assets/images/agri-images/crop-schedule-details.png";
 import agri6 from "../../assets/images/agri-images/purchase-form.png";
 import agri7 from "../../assets/images/agri-images/inventory-details.png";
 
+import sendcredit1 from "../../assets/images/sendcredit/sendcredit-1.png";
+import sendcredit2 from "../../assets/images/sendcredit/sendcredit-2.png";
+import sendcredit3 from "../../assets/images/sendcredit/sendcredit-3.png";
+import sendcredit4 from "../../assets/images/sendcredit/sendcredit-4.png";
+import sendcredit5 from "../../assets/images/sendcredit/sendcredit-5.png";
+import sendcredit6 from "../../assets/images/sendcredit/sendcredit-6.png";
+import sendcredit7 from "../../assets/images/sendcredit/sendcredit-7.png";
+import sendcredit8 from "../../assets/images/sendcredit/sendcredit-8.png";
+
 export const projectsList = [
   {
-    name: "Agri",
-    images: [agri1, agri2, agri3, agri4, agri5, agri6, agri7],
-    description: `Agri is an intuitive agriculture management web app designed to streamline farm operations. With its user-friendly interface, users can easily purchase essential products such as water, seeds, and tractors, and assign them to specific crops like Rice and Potash. The Inventory page provides comprehensive information about purchases, assignees, and the remaining products in store. Agri simplifies agricultural management, ensuring efficient resource allocation and enhancing productivity for farmers.`,
+    name: "SendCredit",
+    images: [
+      sendcredit1,
+      sendcredit2,
+      sendcredit3,
+      sendcredit4,
+      sendcredit5,
+      sendcredit6,
+      sendcredit7,
+      sendcredit8,
+    ],
+    description: `Send Credit is a digital service offering secure top-ups, airtime, gift cards, and prepaid utilities to 140+ countries, delivered instantly. With over 100 million top-ups sent to 500+ network carriers globally, it enables customers to share happiness across 240+ destinations.`,
     techStack:
-      "html5, css3, JavaScript, React, Next.js, MUI, TailwindCSS, Node.js, Express.js, MongoDB",
-    link: "https://www.asimkhichi.pk",
+      "html5, CSS3, JavaScript, Next Js, MUI, Redux Toolkit, Google Analytics, Formik, Yup",
+    link: "https://sendcredit.com",
   },
   {
     name: "Meveto",
@@ -69,6 +87,14 @@ export const projectsList = [
     description: `Meveto Docs is platform for all documentation related to Meveto Inc. It serves as a one-stop-shop for all information and resources related to Meveto services. From user manuals to technical specifications, this platform provides everything you need to get started and make the most out of your Meveto experience. Whether you're a current customer or exploring our offerings, Meveto Docs is the place to go for all the information you need.`,
     techStack: "html5, css3, sass, JavaScript, React, TailwindCSS",
     link: "https://docs.meveto.com",
+  },
+  {
+    name: "Agri",
+    images: [agri1, agri2, agri3, agri4, agri5, agri6, agri7],
+    description: `Agri is an intuitive agriculture management web app designed to streamline farm operations. With its user-friendly interface, users can easily purchase essential products such as water, seeds, and tractors, and assign them to specific crops like Rice and Potash. The Inventory page provides comprehensive information about purchases, assignees, and the remaining products in store. Agri simplifies agricultural management, ensuring efficient resource allocation and enhancing productivity for farmers.`,
+    techStack:
+      "html5, css3, JavaScript, React, Next.js, MUI, TailwindCSS, Node.js, Express.js, MongoDB",
+    link: "https://www.asimkhichi.pk",
   },
   {
     name: "Depart",
